@@ -4,32 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecosistema de Comercios Upata - Alianza Aurora</title>
-   <style>
+    <style>
+        /* Fondo negro total para toda la página */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000000; /* Fondo negro total */
-            color: #ffffff; /* Letras blancas para que se lean */
+            background-color: #000000;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-       <header style="
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200');
-    background-size: cover;
-    background-position: center;
-    padding: 100px 20px;
-    text-align: center;
-    border-bottom: 5px solid #FFD700;
-</header>
 
+        /* Encabezado elegante */
+        header {
+            width: 100%;
+            padding: 40px 0;
+            background-color: #000000;
+            text-align: center;
+            border-bottom: 2px solid #FFD700; /* Línea dorada sutil */
+        }
+
+        /* Contenedor del banner mediano */
+        .container-banner {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 40px 0;
+        }
+
+        /* Ajuste del banner a tamaño mediano */
+        .banner-img {
+            width: 70%; /* Tamaño mediano */
+            max-width: 800px; /* Límite de ancho para que no sea gigante */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(255, 214, 0, 0.3); /* Resplandor dorado */
+            border: 1px solid #333;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #ffffff;
+            margin-top: 20px;
+        }
+
+        .subtitulo {
+            font-size: 1.5em;
+            color: #FFD700; /* Dorado Huwa */
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
 <body>
-    <div style="width: 100%; text-align: center; margin: 20px 0;">
-        <img src="Ecosistema de Comercios Upata.jpg" 
+
+    <header>
+        <h2 style="margin: 0; letter-spacing: 4px; color: #ffffff;">ALIANZA AURORA</h2>
+    </header>
+
+    <div class="container-banner">
+        <img src="banner-upata.jpg" 
              alt="Ecosistema de Comercios Upata" 
-             style="width: 100%; max-width: 1200px; height: auto; border-radius: 15px; box-shadow: 0px 4px 10px rgba(0,0,0,0.5);">
+             class="banner-img">
     </div>
 
-    <h1 style="font-size: 3.5em; color: white; text-align: center;">Ecosistema de Comercios Upata</h1>
-    <p style="font-size: 1.5em; color: #FFD700; text-align: center; font-weight: bold;">Impulsado por Proyecto Aurora</p>
+    <h1>Ecosistema de Comercios Upata</h1>
+    <p class="subtitulo">Impulsado por Proyecto Aurora</p>
 
 </body>
 </html>
